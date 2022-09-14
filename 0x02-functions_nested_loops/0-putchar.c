@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  *
- *     */ 
+ */
 int main(void)
 {
 	int i = 0;
@@ -17,6 +17,5 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-	ret urn (0);
+	return (0);
 }
-
