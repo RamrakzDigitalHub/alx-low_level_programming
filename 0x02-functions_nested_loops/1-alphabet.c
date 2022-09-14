@@ -1,19 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints all aphabets in lowercase
- *
- * Description: They are sorted by default
- * return (0)
+ * print_alphabet - check description
+ * Desciption: it prints the alphabet, in lowercase, followed by a new line.
+ * Returns: Nothing.
  */
-
 void print_alphabet(void)
 {
-	char ch = 'a';
+char i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
+_putchar('\n');
 }
